@@ -30,11 +30,10 @@ A progress counter shows how many accounts are left to review.
 2. Open **DevTools**:
    - Mac: `Cmd + Option + J`
    - Windows/Linux: `Ctrl + Shift + J`
-3. Click the **Console** tab
-4. Type `allow pasting` and press Enter _(required by Chrome to enable pasting)_
-5. Copy the entire contents of [`not-following-back.js`](./not-following-back.js)
-6. Paste it into the console and press **Enter**
-7. The overlay will appear and start loading your data automatically
+3. Open the **Sources** tab → **Snippets** → **New snippet**
+4. Copy the entire contents of [`not-following-back.js`](./not-following-back.js) and paste it into the snippet
+5. Press **Cmd+Enter** to run it
+6. Usernames will be printed to the console
 
 ---
 
@@ -53,7 +52,7 @@ A progress counter shows how many accounts are left to review.
 - **Instagram may update their internal API at any time**, which could break this script without warning. If it stops working, check for an updated version here.
 - This script only works when you are **logged into instagram.com in a desktop browser**. It will not work in the Instagram app.
 - Instagram may rate-limit or flag accounts that unfollow a large number of people in a short period. Use this tool responsibly — the script includes small delays between API calls to reduce the risk.
-- Tested in **Chrome** and **Firefox**. Other browsers may require different steps to enable console pasting.
+- Tested in **Chrome** and **Firefox**.
 
 ---
 
